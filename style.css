@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    min-height: 450px;
+}
+
+.signup-container h2 {
+    margin-bottom: 10px;
+}
+
+.signup-container .form-field {
+    margin-bottom: 0px;
+}
+
+
+
+
+
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.signup-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    min-height: 450px;
+}
+
+.login-container h2 {
+    margin-bottom: 30px;
+}
+
+.login-container .form-field {
+    margin-bottom: 10px;
+}
+.login-container input[type="text"],
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.card-body {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.card img {
+    flex: 0 0 100px;
+    border-radius: 50%;
+    margin-right: 2000px;
+}
+
+.details {
+    flex: 1;
+}
+
+.details h2 {
+    margin: 0 0 10px;
+}
+
+.details p {
+    margin: 0;
+    color: #555;
+}
